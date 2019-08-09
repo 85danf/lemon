@@ -27,4 +27,4 @@ I have also made a  container of this version available online so you can simply
 Rationalization for choices I made and other in-depth explanations can be found as javadoc comments in the code.
 
 All available endpoints of this application are documented under
-`http://localhost:8086/lemon/swagger-ui.html/`
+`http://localhost:8086/lemon/swagger-ui.html`
