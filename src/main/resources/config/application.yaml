@@ -1,0 +1,20 @@
+server:
+  port: 8086
+  servlet:
+    context-path: /lemon
+  compression:
+    enabled: true
+    mimeTypes: text/xml
+    minResponseSize: 4096
+
+spring:
+  resources:
+    add-mappings:   true
+  datasource:
+    name: lemondb
+  application:
+    name: dan-lemon-task
+  jpa:
+#    show-sql: true
+    hibernate:
+      ddl-auto: update
